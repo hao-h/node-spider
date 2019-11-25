@@ -1,0 +1,33 @@
+{
+    "name": "node-spider",
+    "version": "0.0.1",
+    "description": "A generic web crawler powered by NodeJS",
+    "main": "dist/index.js",
+    "scripts": {
+        "eslint": "eslint src/**",
+        "test": "jest",
+        "test-c": "jest --coverage"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "keywords": [
+        "Crawler",
+        "Typescript",
+        "NodeJS"
+    ],
+    "author": "hao-h",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "24.0.23",
+        "@typescript-eslint/eslint-plugin": "2.8.0",
+        "@typescript-eslint/parser": "2.8.0",
+        "eslint": "6.7.0",
+        "eslint-config-alloy": "3.2.0",
+        "jest": "24.9.0",
+        "prettier": "1.19.1",
+        "rollup": "1.27.4",
+        "ts-jest": "24.2.0",
+        "typescript": "3.7.2"
+    }
+}
